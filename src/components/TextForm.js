@@ -30,7 +30,6 @@ export default function TextForm(props) {
     }
     
     const valueChanged = (event)=>{
-        // console.log("Value changed");
         textChange(event.target.value);
     }
 
